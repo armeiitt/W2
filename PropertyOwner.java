@@ -1,10 +1,9 @@
 import java.util.ArrayList;
 
-public class PropertyOwner extends user {
+public class PropertyOwner extends User {
 
     public PropertyOwner(int id, String name, String email, String phoneNumber, String password) {
-        super(id, name, email, phoneNumber, password);
-        // TODO Auto-generated constructor stub
+        super(id, name, email, phoneNumber, password)
     }
 
     private ArrayList<Property> ListProperty;

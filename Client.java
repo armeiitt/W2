@@ -65,7 +65,7 @@ public class Client {
 
             System.out.println("Enter rent amount: ");
             double rentAmount = scanner.nextDouble();
-            scanner.nextLine(); // consume the newline
+            scanner.nextLine(); 
 
             Contract contract = client.requestCreateRentalContract(contractType, propertyID, tenantID, rentAmount);
 
